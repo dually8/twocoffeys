@@ -1,7 +1,7 @@
 navbar-links:
     Archive: /archives
-    Github: https://github.com/twoyao/beautiful-hexo
-    About: /about/
+    Registry: /Registry
+    RSVP: /RSVP
 
 avatar: /imgs/header/avatar.png
 favicon: /imgs/header/avatar.png
@@ -11,9 +11,8 @@ header:
     motto: Celebrate with us!
     bigimgs:
         - src: /imgs/header/bridge.jpg
-          desc: us at the walking bridge
         - src: /imgs/header/mtnhug.jpg
-          desc: us at lookout mountain
+        - src: /imgs/header/mtnmeep.jpg
 
 rss: /atom.xml
 googlefonts:
@@ -51,7 +50,7 @@ footer:
     link: 'https://twitter.com/twoyao_'
     title: Twitter
     icon: fa-twitter
-    enable: true
+    enable: false
   mail:
     link: 'mailto:no_reply@twocoffeys.com'
     title: Email us
