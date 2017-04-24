@@ -11,3 +11,33 @@
 
     #BFB4B7
 */
+
+    .blackish { 
+        background-color: #050a06;
+    }
+    .darkgreen { 
+        background-color: #364038;
+    }
+    .darkgraygreen { 
+        background-color: #50575d;
+    }
+    .palegray { 
+        background-color: #6f737e;
+    }
+    .paledarkpink { 
+        background-color: #9f8e96;
+    }
+    .neutralpink { 
+        background-color: #aeacba;
+    }
+    .pinkish { 
+        background-color: #d4bdcf;
+    }
+
+    .color1 {
+        background-color: #868F8B;
+    }
+
+    .color2 {
+        background-color: #BFB4B7
+    }

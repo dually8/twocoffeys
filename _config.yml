@@ -78,7 +78,7 @@ html_minifier:
   exclude:
 
 css_minifier:
-  enable: true
+  enable: false
   exclude:
     - '*.min.css'
 
