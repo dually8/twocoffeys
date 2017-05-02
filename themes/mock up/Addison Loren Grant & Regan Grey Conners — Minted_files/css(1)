@@ -1,0 +1,7 @@
+
+  @font-face {
+    font-family: "Business Penmanship";
+    font-style: normal;
+    font-weight: 400;
+    src: local("BusinessPenmanship"), local('BusinessPenmanship'), url("https://d3jpwrui3eswtl.cloudfront.net/businesspenmanship/BusinessPenmanship-Regular.otf") format('opentype');
+  }

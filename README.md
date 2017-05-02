@@ -30,3 +30,7 @@ if needed
     style-src 'self' 'unsafe-inline' https:;
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https: code.jquery.com maxcdn.bootstrapcdn.com cdnjs.cloudflare.com *.disqus.com *.disquscdn.com data:">
 ```
+
+## Todo
+- [ ] Remodel site
+  - [ ] See `themes/mock up` folder

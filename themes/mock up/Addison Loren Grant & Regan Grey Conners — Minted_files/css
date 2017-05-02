@@ -1,0 +1,7 @@
+
+  @font-face {
+    font-family: "Adobe Garamond Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("AGaramondPro-Regular"), local('AGaramondPro-Regular'), url("https://d3jpwrui3eswtl.cloudfront.net/adobegaramondpro/AGaramondPro-Regular-Regular.otf") format('opentype');
+  }
