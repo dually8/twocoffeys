@@ -32,5 +32,7 @@ if needed
 ```
 
 ## Todo
-- [ ] Remodel site
-  - [ ] See `themes/mock up` folder
+- [ ] Add "Wedding Party" page
+- [ ] Add "Our Story" page
+- [x] Remodel site
+  - [x] See `themes/mock up` folder

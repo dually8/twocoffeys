@@ -11,7 +11,8 @@ header:
     title: "Brittany and CJ"
     motto: Celebrate with us!
     backgroundimg:
-        - src: /imgs/background_img.png
+        # - src: /imgs/background_img.png
+        - src: /imgs/garland.png
     bigimgs:
         # - src: /imgs/background_img.png
         - src: /imgs/header/bridge.jpg

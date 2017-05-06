@@ -1,5 +1,5 @@
 /*@import url("pygment_highlights.css");*/
-@import url('https://fonts.googleapis.com/css?family=Crete+Round|EB+Garamond|Martel|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Quicksand');
 @import "MyFontsWebfontsKit.css";
 
 .main-img {
@@ -30,21 +30,27 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #bfb4b7;
+    background-color: #F0EAD6; // #bfb4b7;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #bfb4b7;
+    border-color: #F0EAD6; // #bfb4b7;
 }
+
+// .blog-post {
+//   h3, h4 {
+//     font-family: 'MilaScript-Basic', cursive;
+//   }
+// }
 
 /* --- General --- */
 
 body {
-  font-family: 'Quicksand', sans-serif; //'Lora', 'Times New Roman', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #BFB4B7;
+  background: #F0EAD6
 }
 p {
   line-height: 1.5;
@@ -52,18 +58,18 @@ p {
 }
 p a {
   text-decoration: underline;
-  color: #802d43; // #008AFF;
+  color: #802d43;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 300;
 }
 a {
-  color: #802d43; //#008AFF;
+  color: #802d43;
 }
 a:hover,
 a:focus {
-  color: #CFC7D6;
+  color: #F0EAD6; // #CFC7D6;
 }
 blockquote {
   color: #808080;
@@ -90,7 +96,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   padding: 15px inherit;
 }
 
@@ -139,7 +145,7 @@ img {
 .navbar-custom {
   background: #868F8B;
   border-bottom: 1px solid #868F8B;
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .navbar-custom .nav li a {
@@ -158,16 +164,10 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #CFC7D6;
+  color: #F0EAD6; // #CFC7D6;
 }
 
 @media only screen and (min-width: 768px) {
-//   .navbar-custom {
-//     padding: 20px 0;
-//     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-//     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-//     transition: background .5s ease-in-out,padding .5s ease-in-out;
-//   }
 
   .navbar-custom.top-nav-short {
     padding: 0;
@@ -278,8 +278,8 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #BFB4B7;
-  border-top: 1px #BFB4B7 solid;
+  background: #F0EAD6;
+  border-top: 1px #F0EAD6 solid;
   margin-top: 50px;
   font-size: 14px;
 }
@@ -293,7 +293,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'EB Garamond', serif; //Open Sans;
+  font-family: 'EB Garamond', serif;
   text-align: center;
   margin-bottom: 0;
 }
@@ -339,8 +339,10 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  text-shadow: 0px 1px 2px #000;
-  color: #CFC7D6;
+//   text-shadow: 0px 1px 2px #000;
+//   color: #CFC7D6;
+  text-shadow: 0px 1px 2px rgb(84, 66, 58);
+  color: rgb(84, 66, 58);
 }
 
 .post-preview .post-title {
@@ -360,7 +362,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -378,14 +380,13 @@ footer .theme-by {
   margin: 80px 0 20px;
   position: relative;
 }
+
 .intro-header.big-img {
-  /*background: no-repeat center center;*/
-  background-position: center top, center top;
+  // background-position: center top, center top;
+  // background-repeat: no-repeat, repeat;
+  background-position: center top, top center;
   background-repeat: no-repeat, repeat;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;*/
+  // background-size: 800px auto, auto;
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 35px;
 }
@@ -409,8 +410,11 @@ footer .theme-by {
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 100px 0;
-  color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+//   color: #FFF;
+//   text-shadow: 1px 1px 3px #000;
+  padding: 100px 0;
+  color: rgb(84, 66, 58);
+//   /* text-shadow: 1px 1px 3px #000; */
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
@@ -420,13 +424,14 @@ footer .theme-by {
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 35px;
+  font-family: 'MilaScript-Basic', 'EB Garamond', serif;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -451,7 +456,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -460,9 +465,6 @@ footer .theme-by {
   .intro-header {
     margin-top: 130px;
   }
-//   .intro-header.big-img {
-//     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
-//   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
     padding: 150px 0;
@@ -499,10 +501,11 @@ footer .theme-by {
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
-    display: none;
+    padding-top: 20vw;
   }
   .header-section.has-img .big-img {
     margin-bottom: 0;
+    background-size: 800px auto, auto;
   }
 }
 @media only screen and (max-width: 325px) {
@@ -525,7 +528,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -612,7 +615,7 @@ table tr td :last-child {
 
 .tag:focus, .tag:hover {
   text-decoration: none;
-  color: #CFC7D6;
+  color: #F0EAD6; // #CFC7D6;
 }
 
 figure.highlight>table,
