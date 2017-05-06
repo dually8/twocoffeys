@@ -1,9 +1,46 @@
 /*@import url("pygment_highlights.css");*/
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|EB+Garamond|Martel|Quicksand');
 @import "MyFontsWebfontsKit.css";
+
+.main-img {
+    padding: 0vw 10vw;
+    img {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        border: 8px solid rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    }
+}
+
+.rsvp-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.rsvp-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #bfb4b7;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #bfb4b7;
+}
+
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Quicksand', sans-serif; //'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -14,15 +51,15 @@ p {
   margin: 30px 0;
 }
 p a {
-  /* text-decoration: underline */
-  color: #008AFF;
+  text-decoration: underline;
+  color: #802d43; // #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 a {
-  color: #008AFF;
+  color: #802d43; //#008AFF;
 }
 a:hover,
 a:focus {
@@ -53,7 +90,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 15px inherit;
 }
 
@@ -82,6 +119,9 @@ img::-moz-selection {
 
 img {
   max-width: 100%;
+  border: 8px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+  margin-bottom: 10px;
 }
 
 .disqus-comments {
@@ -99,7 +139,7 @@ img {
 .navbar-custom {
   background: #868F8B;
   border-bottom: 1px solid #868F8B;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -122,12 +162,12 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar-custom {
-    padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-  }
+//   .navbar-custom {
+//     padding: 20px 0;
+//     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+//     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+//     transition: background .5s ease-in-out,padding .5s ease-in-out;
+//   }
 
   .navbar-custom.top-nav-short {
     padding: 0;
@@ -253,7 +293,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: Open Sans;
+  font-family: 'EB Garamond', serif; //Open Sans;
   text-align: center;
   margin-bottom: 0;
 }
@@ -299,7 +339,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  text-shadow: -1px 1px 2px #000;
+  text-shadow: 0px 1px 2px #000;
   color: #CFC7D6;
 }
 
@@ -320,7 +360,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -339,11 +379,13 @@ footer .theme-by {
   position: relative;
 }
 .intro-header.big-img {
-  background: no-repeat center center;
-  -webkit-background-size: cover;
+  /*background: no-repeat center center;*/
+  background-position: center top, center top;
+  background-repeat: no-repeat, repeat;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 35px;
 }
@@ -384,7 +426,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -409,7 +451,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -418,9 +460,9 @@ footer .theme-by {
   .intro-header {
     margin-top: 130px;
   }
-  .intro-header.big-img {
-    margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
-  }
+//   .intro-header.big-img {
+//     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
+//   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
     padding: 150px 0;
@@ -483,7 +525,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'EB Garamond', serif; //'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -501,8 +543,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #868f8b;
+  border: 1px solid #868f8b;
 }
 
 .pager {

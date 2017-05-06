@@ -1,15 +1,19 @@
 navbar-links:
-    Archive: /archives
+    Events: /Events
     Registry: /Registry
     RSVP: /RSVP
+    Archive: /archives
 
-avatar: /imgs/header/avatar.png
+# avatar: /imgs/header/avatar.png
 favicon: /imgs/header/avatar.png
 
 header:
     title: "Brittany and CJ"
     motto: Celebrate with us!
+    backgroundimg:
+        - src: /imgs/background_img.png
     bigimgs:
+        # - src: /imgs/background_img.png
         - src: /imgs/header/bridge.jpg
         - src: /imgs/header/mtnhug.jpg
         - src: /imgs/header/mtnmeep.jpg
@@ -70,7 +74,7 @@ footer:
 google_analytics:
 
 comment:
-  enable: true
+  enable: false
   disqus: twocoffeys
 
 node_sass:
