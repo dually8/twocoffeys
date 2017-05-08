@@ -30,11 +30,11 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #F0EAD6; // #bfb4b7;
+    background-color: #54423a; // #F0EAD6; // #bfb4b7;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #F0EAD6; // #bfb4b7;
+    border-color: #54423a; // #F0EAD6; // #bfb4b7;
 }
 
 // .blog-post {
@@ -42,7 +42,22 @@
 //     font-family: 'MilaScript-Basic', cursive;
 //   }
 // }
+.blog-post {
+  color: #54423a;
+}
 
+hr {
+  border-top: 2px solid #868f8b;
+}
+
+blockquote .small, blockquote footer, blockquote small {
+  padding: 0;
+  margin: 0;
+}
+
+blockquote {
+  border-left: 5px solid #d6d0be;
+}
 /* --- General --- */
 
 body {
@@ -50,7 +65,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #F0EAD6
+  background: #ffffff;
 }
 p {
   line-height: 1.5;
@@ -69,7 +84,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #F0EAD6; // #CFC7D6;
+  color: #909090;// #F0EAD6; // #CFC7D6;
 }
 blockquote {
   color: #808080;
@@ -143,8 +158,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #868F8B;
-  border-bottom: 1px solid #868F8B;
+  background: #F0EAD6;
+  border-bottom: 1px solid #54423a;
   font-family: 'EB Garamond', serif;
 }
 
@@ -164,7 +179,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #F0EAD6; // #CFC7D6;
+  color: #8c8c8c; // #F0EAD6; // #CFC7D6;
 }
 
 @media only screen and (min-width: 768px) {
@@ -278,8 +293,8 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F0EAD6;
-  border-top: 1px #F0EAD6 solid;
+  background: #FFFFFF;
+  border-top: 1px #FFFFFF solid;
   margin-top: 50px;
   font-size: 14px;
 }
@@ -348,6 +363,7 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 30px;
   margin-top: 0;
+  color: #54423a;
 }
 .post-preview .post-subtitle {
   margin: 0;
@@ -366,6 +382,7 @@ footer .theme-by {
 }
 .post-preview .post-read-more {
   font-weight: 800;
+  color: #54423a;
 }
 
 @media only screen and (min-width: 768px) {
@@ -420,11 +437,13 @@ footer .theme-by {
   margin-top: 0;
   font-family: 'MilaScript-Basic', cursive;
   font-size: 50px;
+  color: #54423a;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 35px;
   font-family: 'MilaScript-Basic', 'EB Garamond', serif;
+  color: #54423a;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
@@ -534,9 +553,9 @@ footer .theme-by {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background: #FFF;
+  background: #F0EAD6;
   border-radius: 0;
-  color: #404040;
+  color: #54423a;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
