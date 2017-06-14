@@ -21,7 +21,7 @@ Things were going great for me after I was born until about 4 years later when K
 ### THE BEST MAN
 #### ROBBY HARRIS
 ![](/imgs/weddingparty/bestman.jpg)
-Robby and CJ met at UTC and became best friends during their time in the foxhole known as Computer Architecture. They formed a coallition with their other friends in the class, and everyone made it out alive thanks to Robby's genius and support. Robby currently works at TVA just over the wall from CJ where they continue to enjoy 30-45 minute coffee breaks together.
+Robby and CJ met at UTC and became best friends during their time in the foxhole known as Computer Architecture. They formed a coalition with their other friends in the class, and everyone made it out alive thanks to Robby's genius and support. Robby currently works at TVA just over the wall from CJ where they continue to enjoy 30-45 minute coffee breaks together.
 
 ### THE BRIDESMAID
 #### RACHEL SALTER
