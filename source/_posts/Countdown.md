@@ -7,7 +7,7 @@ tags:
 It's getting closer and closer to that time! Here's a countdown to help us.
 
 {% raw %}
-<h2 id="countdown"></h2>
+<h2 id="countdown">Loading...</h2>
 
 <script>
 // Set the date we're counting down to
