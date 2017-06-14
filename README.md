@@ -33,6 +33,7 @@ if needed
 
 ## Todo
 - [ ] Add "Wedding Party" page
+- [x] Add countdown
 - [x] Add "Our Story" page
 - [x] Remodel site
   - [x] See `themes/mock up` folder
