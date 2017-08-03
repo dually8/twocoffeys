@@ -30,6 +30,7 @@
     "spellcheck": "mdspell -n -a -r 'source/**/*.md' --en-us",
     "clean": "hexo clean",
     "gen": "hexo generate",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "start": "hexo server"
   }
 }
