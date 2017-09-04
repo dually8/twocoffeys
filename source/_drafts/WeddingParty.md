@@ -1,6 +1,6 @@
 ---
 title: The Wedding Party
-tags:
+tags: [wedding party, groomsmen, bridesmaids]
 ---
 
 ### THE BRIDE

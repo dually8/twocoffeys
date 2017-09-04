@@ -9,6 +9,8 @@ date: 2017-08-02 20:42:01
 
 _We have a block of rooms reserved here for your convenience, but feel free to use whichever place you deem comfortable. Tell the reservation desk that you are booking for the Fong/Coffey wedding if you do decide to stay here._
 
+_**NOTE:** Deadline for reservation here is September 18, 2017._
+
 Address: [411 E 2nd St, Chattanooga, TN 37403](https://www.google.com/maps/place/411+E+2nd+St,+Chattanooga,+TN+37403)
 
 Phone: (423) 265-5033
